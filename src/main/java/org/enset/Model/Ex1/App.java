@@ -1,9 +1,6 @@
-package org.enset;
+package org.enset.Model.Ex1;
 
-import org.enset.Model.Ex1.StorageGenerique;
-import java.util.ArrayList;
-import java.util.List;
-public class Main {
+public class App {
     public static void main(String[] args) {
         // Test with Integer
         StorageGenerique<Integer> intStorage = new StorageGenerique<>();
